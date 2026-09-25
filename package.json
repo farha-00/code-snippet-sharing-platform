@@ -1,0 +1,20 @@
+{
+  "name": "code-snippet-sharing-platform",
+  "version": "1.0.0",
+  "description": "A clean, modern code snippet sharing platform with full CRUD, search, tags, and syntax highlighting.",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node database/seed.js",
+    "test": "node test_suite.js"
+  },
+  "keywords": [
+    "snippets",
+    "code-sharing",
+    "developer-tools",
+    "syntax-highlighting"
+  ],
+  "author": "",
+  "license": "MIT"
+}
